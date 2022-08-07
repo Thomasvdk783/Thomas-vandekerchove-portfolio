@@ -71,4 +71,8 @@ header .nav-header li:hover {
   transition: 150ms;
 }
 
+footer {
+  background-color: #2b2b6b;
+}
+
 /*# sourceMappingURL=style.css.map */

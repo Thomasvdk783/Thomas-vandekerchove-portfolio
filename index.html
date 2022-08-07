@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <title>Thomas Vandekerchove | Développeur Front End</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
@@ -17,25 +17,27 @@
       <header class="">
         <div class="container">
           <div class="row">
-            <div class="col-4 name-header">
-              Thomas<span class="point-logo">.</span>
-            </div>
-            <div class="navbar-desktops">
-              <a href="#">Qui suis-je ?</a>
-              <a href="#">Mes créations</a>
-              <a href="#">Contact</a>
-            </div>
-            <!-- Menu Mobile -->
-            <div class="navbar-mobile">
-              <i class="fas fa-bars"></i>
-              <div class="modal">
-                <div class="navbar-mobile-list">
-                  <a href="#">Qui suis-je ?</a>
-                  <a href="#">Mes créations</a>
-                  <a href="#">Contact</a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid">
+                <a class="navbar-brand name-header" href="#">Thomas<span class="point-logo">.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Qui suis-je ?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Mes créations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
+            </nav>
           </div>
         </div>
       </header>
@@ -44,23 +46,23 @@
         <div class="container slider-hp">
           <div class="row">
             <div class="col-12 col-md-6  container-titre">
-              <h1 class="text-start">
+              <h1 class="h1 text-start">
                 Hello ! Moi c'est Thomas
               </h1>
-              <h2>Je suis développeur Front End</h2>
+              <h2 class="h2">Je suis développeur Front End</h2>
               <button class="btn btn-primary">
                 Voir mes créations
               </button>
             </div>
             <div class="col-12 col-md-6  container-photo-profil">
-              <img src="./medias/photo-profil-thomas.png" alt="photo de profil thomas vandekerchove"  class="w-80">
+              <img src="./medias/photo-profil-thomas.png" alt="photo de profil thomas vandekerchove"  class="img-fluid w-80">
             </div>
           </div>
         </div>
 
         <!-- section compétences techniques -->
         <section class="bg-light">
-          <div class="container my-5">
+          <div class="container py-5 my-5">
             <h3>Compétences techniques</h3>
             <h4 class="ft-weight-light">Développement et logiciels</h4>
             <div class="row my-3">

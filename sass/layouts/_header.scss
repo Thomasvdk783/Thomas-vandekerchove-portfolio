@@ -1,0 +1,42 @@
+// style for header and navigation
+header {
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  -webkit-box-shadow: 0px 0px 5px 0px #CCCCCC; 
+  box-shadow: 0px 0px 5px 0px #CCCCCC;
+  .name-header {
+    font-size: 35px;
+    color: rgb(15, 53, 110);
+    .point-logo {
+      font-size: 45px;
+      color: rgb(172, 1, 1);
+    }
+  }
+
+  .header-content{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;     
+    gap: 15px;
+    text-decoration: none;
+  }
+
+  .nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    li {
+      cursor: pointer;
+      transition: 150ms;
+      &:hover {
+        transform: scale(1.15);
+        transition: 150ms;
+      }
+    }
+  }
+}

@@ -100,4 +100,10 @@ footer a .point-logo-footer {
   align-items: flex-start;
 }
 
+.container-a-propos {
+  background: #1d42b5;
+  background: linear-gradient(58deg, #1d42b5 22%, #1894eb 80%);
+  border-radius: 35px 15px 65px 46px;
+}
+
 /*# sourceMappingURL=style.css.map */

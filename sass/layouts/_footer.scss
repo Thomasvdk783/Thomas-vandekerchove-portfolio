@@ -2,4 +2,17 @@
 
 footer {
     background-color: rgb(43, 43, 107);
+    a{
+        text-decoration: none;
+        .name-footer{
+            color: #fff;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .point-logo-footer{
+            font-size:45px;
+            color: rgb(172, 1, 1);
+        }
+    }
+    
 }

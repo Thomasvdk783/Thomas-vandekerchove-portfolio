@@ -40,3 +40,10 @@ header {
     }
   }
 }
+
+
+.container-nav-principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

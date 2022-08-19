@@ -55,27 +55,6 @@ header .header-content {
   gap: 15px;
   text-decoration: none;
 }
-header .nav-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style-type: none;
-}
-header .nav-header li {
-  cursor: pointer;
-  transition: 150ms;
-}
-header .nav-header li:hover {
-  transform: scale(1.15);
-  transition: 150ms;
-}
-
-.container-nav-principal {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 footer {
   background-color: #2b2b6b;

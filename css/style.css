@@ -14,6 +14,10 @@ main {
   font-size: 45px;
 }
 
+.active-link {
+  color: #ac0101;
+}
+
 .slider-hp {
   font-weight: lighter;
 }

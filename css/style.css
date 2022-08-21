@@ -98,8 +98,14 @@ footer a .point-logo-footer {
   align-items: flex-start;
 }
 
+.img-competences {
+  background: #1d42b5;
+  background: linear-gradient(58deg, #1d42b5 22%, #1894eb 80%);
+  border-radius: 35px 15px 65px 46px;
+}
+
 .div-background-img {
-  background-image: url("../../medias/computer-g440e02e35_1920.jpg");
+  background-image: url("../medias/computer-g440e02e35_1920.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

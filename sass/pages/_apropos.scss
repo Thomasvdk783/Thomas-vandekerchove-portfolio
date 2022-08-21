@@ -18,3 +18,22 @@
         backdrop-filter: blur(10px);
     }
 }
+
+.card-parcours{
+    width: auto;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius:15px;
+    box-shadow: 0px 5px 10px 5px #CCCCCC;
+    border: 2px solid #2a59f5;
+    ul{
+        list-style-type: "> ";
+    }
+}
+
+.title-h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(172, 1, 1);
+}

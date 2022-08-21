@@ -8,3 +8,4 @@ icone.addEventListener('click', function(){
     modal.classList.toggle('change-modal')
     icone.classList.toggle('fa-times')
 });
+

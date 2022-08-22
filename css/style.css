@@ -102,6 +102,16 @@ footer a .point-logo-footer {
   align-items: flex-start;
 }
 
+.card-img-top {
+  height: 175px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .img-competences {
   background: #1d42b5;
   background: linear-gradient(58deg, #1d42b5 22%, #1894eb 80%);

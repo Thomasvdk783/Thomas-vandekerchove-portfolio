@@ -6,3 +6,13 @@
     justify-content: center;
     align-items: flex-start;
 }
+
+.card-img-top {
+    height: 175px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,156 @@
+body {
+  position: relative;
+  background: #e8eaec;
+  background: linear-gradient(58deg, #e8eaec 22%, #eef8ff 80%);
+}
+
+main {
+  width: 100%;
+  margin-top: 125px;
+}
+
+.point-experience {
+  color: #ac0101;
+  font-size: 45px;
+}
+
+.active-link {
+  color: #ac0101;
+}
+
+.slider-hp {
+  font-weight: lighter;
+}
+.slider-hp .container-titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slider-hp .container-photo-profil {
+  background: #3a43b4;
+  background: linear-gradient(58deg, #3a43b4 11%, #fd1d1d 44%, #fcb045 78%);
+  border-radius: 15px 100px 15px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header {
+  background-color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  -webkit-box-shadow: 0px 0px 5px 0px #CCCCCC;
+  box-shadow: 0px 0px 5px 0px #CCCCCC;
+}
+header .name-header {
+  font-size: 35px;
+  color: #0f356e;
+}
+header .point-logo {
+  font-size: 45px;
+  color: #ac0101;
+}
+header li {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+@media screen and (max-width: 996px) {
+  header {
+    background-color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    -webkit-box-shadow: 0px 0px 5px 0px #CCCCCC;
+    box-shadow: 0px 0px 5px 0px #CCCCCC;
+  }
+  header .name-header {
+    font-size: 35px;
+    color: #0f356e;
+  }
+  header .point-logo {
+    font-size: 45px;
+    color: #ac0101;
+  }
+  header li {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+footer {
+  background-color: #2b2b6b;
+}
+footer a {
+  text-decoration: none;
+}
+footer a .name-footer {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+footer a .point-logo-footer {
+  font-size: 65px;
+  color: #ac0101;
+}
+
+.slider-mes-creations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card-img-top {
+  height: 175px;
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-competences {
+  background: #1d42b5;
+  background: linear-gradient(58deg, #1d42b5 22%, #1894eb 80%);
+  border-radius: 35px 15px 65px 46px;
+}
+
+.div-background-img {
+  background-image: url("../medias/computer-g440e02e35_1920.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-background-img h1 {
+  backdrop-filter: blur(10px);
+}
+
+.card-parcours {
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 5px #CCCCCC;
+  border: 2px solid #2a59f5;
+}
+.card-parcours ul {
+  list-style-type: "> ";
+}
+
+.title-h2 {
+  text-decoration: underline;
+  text-decoration-color: #ac0101;
+}
+
+/*# sourceMappingURL=main.css.map */
